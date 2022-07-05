@@ -1,0 +1,51 @@
+body .bg-repeat {
+  background: linear-gradient(to right, #00a8e0 0%, #000039 100%);
+}
+@media (max-width: 526px) {
+  body .bg-repeat {
+    background: yellow;
+  }
+}
+body .bg-title {
+  background: url(../assets/title_bg.png) center repeat-x;
+}
+body nav .collapse-width {
+  max-width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+body nav .navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+  font-weight: 500;
+}
+body main {
+  margin-top: 30px;
+}
+body main .headline {
+  color: #fff;
+  text-align: left;
+  font-size: 18px;
+  height: 49px;
+  line-height: 66px;
+  padding-left: 25px;
+  font-weight: 500;
+}
+body main .card-title {
+  font-size: 18px;
+}
+body main .category-product .accordion .list-group-item {
+  border: none;
+}
+body main .items-layout-type-one .slick-slide {
+  margin-right: 30px;
+}
+body main .items-layout-type-one .slick-list {
+  margin: 0;
+}
+body main #contact-section {
+  min-height: 304px;
+  width: 100%;
+  background: #F9F9F9;
+}
+
+/*# sourceMappingURL=_style.css.map */
